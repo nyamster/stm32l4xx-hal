@@ -746,6 +746,7 @@ hal! {
     feature = "stm32l4x3",
     feature = "stm32l4x5",
     feature = "stm32l4x6",
+    feature = "stm32l4r9"
 ))]
 hal! {
     USART3: (usart3, APB1R1, usart3en, usart3rst, pclk1, tx: (c2s, dma1::C2), rx: (c3s, dma1::C3)),
